@@ -4,13 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="app.css">
     <title>Form-2</title>
+    <style>
+
+        *{
+
+            box-sizing: border-box;
+            margin:0px;
+            padding:0px;
+        }
+
+        body{
+            background: #d6e5fa;
+            color:green;
+            line-height: 2.0;
+
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+        #container{
+            margin:30px auto;
+            max-width:400px;
+            padding:20px;
+        }
+        .form-wrap{
+            background:white;
+            padding:25px 45px;
+        }
+
+        .form-wrap h1,
+        .form-wrap p{
+            text-align:center;
+        }
+
+        .form-wrap .form-group{
+            margin-top: 15px;
+
+        }
+
+        .form-wrap .form-group label{
+            display:block;
+            color:#666;
+        }
+
+        .form-wrap .form-group input{
+            width:100%;
+            padding:8px;
+            border:#ddd 3px solid;
+            border-radius:5px;
+            
+        }
+        .form-wrap button{
+            display:block;
+            width:100%;
+            margin-top:18px;
+            padding:12px;
+            background:#49c1a2;
+            cursor:pointer;
+            
+
+        }
+
+        .form-wrap button:hover{
+            background: #37a08e;
+            color:#ffdc34;
+        }
+
+        .form-wrap .bottom-text{
+            font-size:13px;
+            margin-top:15px;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:15px;
+        }
+
+        footer a{
+            color:#2a1a5e;
+        }
+
+    </style>
 </head>
 <body>
     <div id="container">
         <div class="form-wrap">
-            <h2>Sign Up</h2>
+            <h1>Sign Up</h1>
             <p>It is free and only takes a minute</p>
             <form>
                 <div class="form-group">
@@ -46,7 +128,7 @@
         </div>
         <footer>
                 <p>Already have an account?
-                    <a href="#">Login Here</a>
+                    <a href="#">Login Here<---------</a>
                 </p>
 
         </footer>
