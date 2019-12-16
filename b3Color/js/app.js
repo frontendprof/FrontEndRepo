@@ -9,6 +9,9 @@ btn.addEventListener('click',changeColor);
 
 function changeColor(){
     let random=Math.floor(Math.random()*colors.length);
-    console.log(random);
+    
+    
+    const body=document.body;
+    body.style.background=colors[random];
     
 }
