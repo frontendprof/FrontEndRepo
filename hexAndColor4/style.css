@@ -1,0 +1,10 @@
+.max-height{
+
+    min-height: 100vh;
+}
+
+.btn{
+    padding:1rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
