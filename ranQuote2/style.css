@@ -1,3 +1,7 @@
-.max-weight{
+.max-height{
     min-height: 100vh;
+}
+
+body{
+    background:plum;
 }
