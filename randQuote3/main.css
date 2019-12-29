@@ -1,0 +1,25 @@
+.max-height{
+    min-height: 100vh;
+}
+
+body{
+    background: #6f9a8d;
+}
+
+.quote-container {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  #gen-btn{
+      background: #de6b35;
+      color:#0c093c;
+      border-color: #f1fa3c;
+      cursor: pointer;
+      font-size: 1.5rem;
+      padding:1.5rem;
+
+  }
+
+  .author{
+      color: #0c093c;
+  }
