@@ -13,12 +13,12 @@ body{
 }
 
 #subBtn{
-    background:#456990;
+    background:#BED8D4;
 }
 
 #subBtn:hover{
-    background:#BED8D4;
-    font-size: 1.5rem;
+    background:#456990;
+    font-size: 1.2rem;
 }
 
 .m-cont{

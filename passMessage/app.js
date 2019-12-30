@@ -11,9 +11,24 @@
     function showMsg(e){
         e.preventDefault();
 
-        const messg=document.querySelector("#mess");
-        const valM=messg.value;
+
+        const msg=document.querySelector("#mess");
+        const valM=msg.value;
         console.log(valM);
+
+        if(valM===""){
+            const feedB=document.querySelector(".feedback");
+            feedB.classList.add("show");
+            setTimeout(function(){
+                feedB.classList.remove("show")
+            },2500);
+
+        }else{
+            document.querySelector(".mes-cont").textContent=valM;
+            msg.value="";
+
+        }
+
         
     }
 
