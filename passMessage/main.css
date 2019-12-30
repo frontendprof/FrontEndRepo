@@ -1,3 +1,9 @@
+:root {
+    --lightBlue: #95b8d1;
+    --mainwhite: #f5f5f5;
+    --mainBlack: #333333;
+  }
+
 .max-height{
     min-height: 100vh;
 }
@@ -6,6 +12,24 @@ body{
     background: #719192;
 }
 
+#subBtn{
+    background:#456990;
+}
+
+#subBtn:hover{
+    background:#BED8D4;
+    font-size: 1.5rem;
+}
+
 .m-cont{
     background: white;
 }
+
+.feedback {
+    display: none;
+  }
+
+.show{
+    display:block;
+}
+  
