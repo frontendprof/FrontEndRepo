@@ -26,12 +26,35 @@ subVal.addEventListener('click',function(){
 
     // Validate
     if(isNaN(guess) || minNum<1 ||maxNum>10){
-        setMsg(`Please enter a number between ${min} and ${max}`);
+        setMsg(`Please enter a number between ${min} and ${max}`,'red');
+    }
+
+    // Check winning sitaution
+    if(guess===winNum){
+        inpVal.disabled=true;
+        inpVal.style.borderColor="green";
+        setMsg(`YES, YOU GOT IT. ${winNum} was the winning number.`,'green');
+    }else{
+        gLeft-=1;
+        
+        if (gLeft===0){
+
+            inpVal.disabled=true;
+            inpVal.style.borderColor="red";
+            setMsg(`Game Over. You lost the game.
+             ${winNum} was the winning number.`,'red');
+
+        }else{
+            inpVal.style.borderColor="red";
+            inpVal.value="";
+            setMsg(`${guess} is not correct. You have ${gLeft} guess(es) left.`,'red')
+        }
     }
     
 });
 
-function setMsg(msg){
+function setMsg(msg,color){
     conMsg.textContent=msg;
+    conMsg.style.color=color;
 
 }
