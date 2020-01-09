@@ -22,7 +22,7 @@
           },
 	  {
             quote:
-              ""We may encounter many defeats, but we must not be defeated."",
+              "We may encounter many defeats, but we must not be defeated.",
             author: "Maya Angelou"
           },
   
@@ -74,8 +74,13 @@
     const btn=document.querySelector(".btn");
 
     btn.addEventListener("click", function(){
-        let rand=Math.floor(Math.random()*quotes.lenght);
-    })
+        let rand=Math.floor(Math.random()*quotes.length);
+
+        document.querySelector("#quote-con").textContent=quotes[rand].quote;
+        document.querySelector(".author-con").textContent=quotes[rand].author;
+        
+
+    });
 
 
 
