@@ -1,0 +1,43 @@
+
+
+body{
+    background:url("./img/mainBcg.jpeg") center/cover fixed no-repeat;
+    color:white;
+}
+
+
+
+.max-height{
+    min-height: 100vh;
+}
+
+.main-cont{
+    border: 0.3rem solid lightslategray;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.9);
+}
+
+#counter{
+    font-size: 10rem;
+    color:teal;
+}
+
+
+.prevBtn,
+.nextBtn{
+    background-color: #0f4c75;
+    color:plum;
+    font-size: 1.4rem;
+}
+
+.prevBtn:hover{
+    background-color: white;
+    color:magenta;
+
+}
+
+
+.nextBtn:hover{
+    background-color: white;
+    color:magenta;
+}
