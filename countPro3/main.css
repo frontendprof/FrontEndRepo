@@ -1,0 +1,8 @@
+body{
+    background: url("./img/index2.jpg") center/cover fixed no-repeat;
+    color:white;
+}
+
+.max-height{
+    min-height: 100vh;
+}
