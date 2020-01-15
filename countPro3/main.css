@@ -32,11 +32,32 @@ body{
     font-size: 5rem;
     background-color:silver;
     transform:translate(-50%, 0);
+    opacity:0.8;
     
 }
 
+.btn-left:hover {
+    border-color: #3e92cc;
+    background: seagreen;
+    color: magenta !important;
+    
+  }
+
 
 .btn-right{
-    font-size: 2rem;
-    color:white;
+    position:absolute;
+    top:40%;
+    right:0;
+    border:0.2rem solid navy;
+    font-size: 5rem;
+    background-color:silver;
+    transform:translate(50%, 0);
+    
 }
+
+.btn-right:hover {
+    border-color: #3e92cc;
+    background: seagreen;
+    color: magenta !important;
+    
+  }
