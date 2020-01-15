@@ -41,7 +41,7 @@ body{
     background: seagreen;
     color: magenta !important;
     
-  }
+}
 
 
 .btn-right{
@@ -60,4 +60,15 @@ body{
     background: seagreen;
     color: magenta !important;
     
-  }
+}
+
+.cont{
+      font-size: 4rem;
+}
+
+
+#counter{
+    font-size: 8rem;
+    font-weight: bold;
+}
+
