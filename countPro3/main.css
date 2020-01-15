@@ -64,11 +64,13 @@ body{
 
 .cont{
       font-size: 4rem;
+      color:#0f4c75 !important;
 }
 
 
-#counter{
+#con2{
     font-size: 8rem;
     font-weight: bold;
+    color:#ed8240;
 }
 
