@@ -1,0 +1,14 @@
+
+
+.max-height{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./img/qqqq.jpg") center/cover fixed no-repeat;
+}
+
+.title-heading{    
+    color:#f15025;
+}
+
+.title-subheading{    
+    color:white;
+}
