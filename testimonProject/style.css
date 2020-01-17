@@ -12,3 +12,70 @@
 .title-subheading{    
     color:white;
 }
+
+.customer-card{
+    background: transparent;
+    color:white;
+    border:0.3rem solid white;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: relative;
+}
+
+
+.img-card{
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+}
+
+
+.star-icon{
+    color: #f15025;
+}
+
+.quote-icon-1{
+    font-size: 2rem;
+    color: #F0E100;
+    margin-top:2rem;
+}
+
+.quote-icon-2{
+    font-size: 2rem;
+    color: #F0E100;
+}
+
+.prevBtn,
+.nextBtn{
+    font-size: 2rem;
+    position: absolute;
+    padding:0.4rem;
+    border:0.3rem solid #C0F5FA;
+    display: inline-block;
+    border-radius: 50%;
+    color:#FFC43D;
+    transition: all 1s ease-in-out;
+}
+
+.prevBtn:hover{
+    background: #f15025;
+    color: white;
+}
+
+.nextBtn:hover{
+    background: #f15025;
+    color: white;    
+}
+
+.prevBtn{
+    top:50%;
+    left:0;
+    transform: translate(-120%,-50%);
+}
+
+.nextBtn{
+    top:50%;
+    right:0;
+    transform: translate(120%,-50%);
+}
