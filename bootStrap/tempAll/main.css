@@ -12,3 +12,7 @@
 .height8{
     min-height: 100vh;
 }
+
+.abt-img{
+    background: url("./img/about-bcg.jpeg") center/cover no-repeat fixed;
+}
