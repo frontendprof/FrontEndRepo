@@ -8,3 +8,7 @@
     height: 8px;
     margin: 0 auto;
 }
+
+.height8{
+    min-height: 100vh;
+}
