@@ -16,3 +16,9 @@
 .abt-img{
     background: url("./img/about-bcg.jpeg") center/cover no-repeat fixed;
 }
+
+.title-underline-car{
+    width:200px;
+    height:8px;
+    margin:0 auto;
+}
