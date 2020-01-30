@@ -1,0 +1,18 @@
+.max-height{
+    min-height: 100vh;
+}
+
+
+.title-underline{
+    width: 100px;
+    height: 8px;
+    margin: 0 auto;
+}
+
+.height8{
+    min-height: 100vh;
+}
+
+.abt-img{
+    background: url("./img/about-bcg.jpeg") center/cover no-repeat fixed;
+}
