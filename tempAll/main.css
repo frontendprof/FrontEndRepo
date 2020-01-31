@@ -22,3 +22,7 @@
     height:8px;
     margin:0 auto;
 }
+
+#filler{
+    background: url("./img/itSec.jpeg") center/cover no-repeat fixed;
+}
