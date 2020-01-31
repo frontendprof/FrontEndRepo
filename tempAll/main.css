@@ -24,5 +24,6 @@
 }
 
 #filler{
-    background: url("./img/itSec.jpeg") center/cover no-repeat fixed;
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7)),url("./img/itSec.jpeg") center/cover no-repeat fixed;
+    min-height: 70vh;
 }
