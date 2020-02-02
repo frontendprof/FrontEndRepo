@@ -9,3 +9,8 @@
 #review{
     min-height: 100vh;
 }
+
+
+#progress{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)) ,url("./img/projects-1.jpeg") center/cover no-repeat fixed;
+}
