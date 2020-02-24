@@ -172,3 +172,17 @@ body{
 .store-item-icon:hover{
     color: var(--mainGrey);
 }
+
+/* services */
+.services{
+    color:var(--mainWhite);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url("img/servicesBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.service-title{
+    letter-spacing: 0.5rem;
+}
+
+.service-text{
+    word-spacing: 0.5rem;
+}
