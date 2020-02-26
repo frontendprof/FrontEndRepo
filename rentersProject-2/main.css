@@ -14,6 +14,36 @@ body {
   color: var(--mainDark);
 }
 
+/* global */
+.text-green{
+    color:var(--mainGreen);
+}
+
+.green__btn{
+    color:var(--mainGreen);
+    border:0.1rem solid var(--mainGreen);
+    background: transparent;
+}
+
+.green__btn:hover{
+    background: var(--mainGreen);
+    color:var(--mainWhite);
+}
+
+.text-slanted{
+    font-family: "Caveat", cursive;
+}
+
+
+/* navbar */
+
 .navbar{
     background: var(--mainDark);
+}
+
+.phone-icon{
+    color:var(--mainGreen);
+    border:0.1rem solid var(--mainGreen);
+    padding: 0.5rem;
+    border-radius: 50%;
 }
