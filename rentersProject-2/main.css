@@ -50,10 +50,33 @@ body {
 
 /* banner */
 
+.banner-info{
+    min-height: calc(100vh - 131px);
+    background: var(--mainGrey);
+    position:relative;
+}
+
 .banner-info__footer{
-    background: var(--mainDark);
+    background: var(--mainGreen);
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+.banner-img{
+    min-height: calc(100vh - 131px);
+    background: url("img/bannerBcg.jpeg") center/cover fixed no-repeat;
+    position:relative;
+
 }
 
 .banner-img__footer{
-    background: var(--mainGreen);
+    background: var(--mainDark);
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:104px;
+    display: flex;
+    align-items:center;
 }
