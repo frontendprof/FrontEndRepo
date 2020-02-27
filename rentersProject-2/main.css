@@ -130,3 +130,9 @@ body {
     color:var(--mainGrey);
     display: inline-block;
 }
+
+
+/* featured */
+.featured{
+    background: var(--mainGrey);
+}
