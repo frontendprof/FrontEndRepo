@@ -136,3 +136,23 @@ body {
 .featured{
     background: var(--mainGrey);
 }
+
+
+/* subscription section */
+.subs{
+    background: var(--mainGreen);
+    color:var(--mainWhite);
+}
+
+.subs-btn{
+    background: transparent;
+    border:0.17rem solid var(--mainWhite);
+    color:var(--mainWhite);
+}
+
+.subs-btn:hover{
+    background: var(--mainYellow);
+    border:0.17rem solid var(--mainWhite);
+    color:var(--mainPink);
+    font-size: 1.2rem;
+}
