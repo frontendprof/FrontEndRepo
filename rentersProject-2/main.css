@@ -156,3 +156,48 @@ body {
     color:var(--mainPink);
     font-size: 1.2rem;
 }
+
+
+.services{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("img/bannerBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.serivices-info-text{
+
+    color: var(--mainWhite);
+    background: var(--mainGreen);
+    margin-bottom: 0;
+    text-decoration: none; 
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.serivices-info-text:hover{
+    background: transparent;
+    color:var(--mainDark);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.service-icon{
+    color:var(--mainGreen);
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem solid var(--mainGreen);
+    margin-right: 1.1rem;
+    transition: all 1s ease-in-out;
+}
+
+.service-icon:hover{
+    background: var(--mainGreen);
+    color:var(--mainYellow);
+}
+
+.service-link:hover{
+    color:var(--mainWhite);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
