@@ -256,4 +256,11 @@ body {
     color:var(--mainWhite);
     font-size: 2rem;
     transform: translate(-50%,-50%);
+    opacity:0;
+    transition: all 1s linear;
+    cursor:pointer;
+}
+
+.gallery-img-container:hover .gallery-icon{
+    opacity: 1;
 }
