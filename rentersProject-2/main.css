@@ -282,3 +282,8 @@ body {
     background:var(--mainGreen);
     color:var(--mainPink);
 }
+
+
+.footer{
+    background: var(--mainDark);
+}
