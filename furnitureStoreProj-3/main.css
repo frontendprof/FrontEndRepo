@@ -10,7 +10,8 @@
   --mainBlack: #071013;
   --mainGrey: #9b9999;
   --TransGrey: rgba(0, 0, 0, 0.1);
-  --mainPink: rgba(255, 95, 170, 0.2);
+  --mainPink: #d30c7b;
+  --mainCyan:#2de1c2;
 }
 body {
     color: var(--mainBlack);
@@ -20,3 +21,49 @@ body {
   .text-slanted {
     font-family: "Calligraffitti", cursive;
   }
+
+
+
+  /* ################ HomePage ############## */
+
+  /* navbar */
+  .navbar-toggler{
+      outline: none !important;
+      border:none;
+      font-size:2.2rem;
+      color:var(--mainYellow) !important;
+  }
+
+  .nav-link{
+      font-size: 1.6rem;
+      border-bottom:0.1rem solid var(--mainPink);
+  }
+
+  .nav-active{
+      border-bottom: 0.2rem solid var(--mainYellow);
+  }
+
+  .navbar-icon{
+      font-size:1.6rem;
+  }
+
+  .navbar-cart-icon{
+    color:var(--mainYellow);
+    position: relative;
+}
+
+.navbar-cart-icon:hover{
+    color:var(--mainCyan);
+    text-decoration: none;
+}
+
+.cart-items{
+    color:var(--mainWhite);
+    position: absolute;
+    top:-45%;
+    right:-30%;
+    padding: 0.2rem 0.5rem;
+    background: var(--mainPink);
+    font-size: 0.8rem;
+    border-radius: 50%;
+}
