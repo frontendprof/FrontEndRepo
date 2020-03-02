@@ -23,6 +23,19 @@ body {
   }
 
 
+  .btn-yellow{
+      background: var(--mainYellow);
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      color:var(--mainBlack);
+
+  }
+
+  .btn-yellow:hover{
+      background:var(--mainCyan);
+      color:var(--mainPink);
+  }
+
 
   /* ################ HomePage ############## */
 
@@ -66,4 +79,9 @@ body {
     background: var(--mainPink);
     font-size: 0.8rem;
     border-radius: 50%;
+}
+
+.banner{
+    min-height: calc(100vh - 90px);
+    background: url("img/pageBcg/bannerBcg.jpeg") center/cover fixed no-repeat;
 }
