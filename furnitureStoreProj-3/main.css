@@ -85,3 +85,55 @@ body {
     min-height: calc(100vh - 90px);
     background: url("img/pageBcg/bannerBcg.jpeg") center/cover fixed no-repeat;
 }
+
+
+/* featured */
+
+
+.featured-container{
+    background: var(--TransGrey);
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-search-icon{
+    background: var(--mainCyan);
+    display:inline-block;
+    padding:0.2rem 0.4rem;
+    position: absolute;
+    right:0;
+    top:50%;
+    font-size: 1.2rem;
+    transform: translateX(110%);
+    transition: all 1s ease-in-out;
+    cursor:pointer;
+}
+
+.featured-container:hover .featured-search-icon{
+    transform: translateX(0);
+}
+
+
+.featured-store-link{
+    background: var(--mainYellow);
+    color:var(--mainPink);
+    padding: 0.2rem 0.4rem;
+    position: absolute;
+    right:0;
+    top:70%;
+    transform: translateX(110%);
+    transition: all 1s ease-in-out;
+}
+
+
+.featured-store-link:hover{
+    text-decoration: none;
+    color:var(--mainWhite) !important;
+}
+.featured-container:hover .featured-store-link{
+    transform: translateX(0);
+}
+
+.old-price{
+    text-decoration: line-through;
+}
