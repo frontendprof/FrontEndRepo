@@ -13,10 +13,10 @@
   --mainPink: rgba(255, 95, 170, 0.2);
 }
 body {
-  color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: "Mali", cursive;
-}
-.text-slanted {
-  font-family: "Calligraffitti", cursive;
-}
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Mali", cursive;
+  }
+  .text-slanted {
+    font-family: "Calligraffitti", cursive;
+  }
