@@ -24,6 +24,10 @@ body {
     font-family: "Calligraffitti", cursive;
   }
 
+  .text-yellow{
+      color:var(--mainYellow);
+  }
+
 
   .btn-yellow{
       background: var(--mainYellow);
@@ -36,6 +40,12 @@ body {
   .btn-yellow:hover{
       background:var(--mainCyan);
       color:var(--mainPink);
+  }
+
+
+  .banner-products{
+      min-height: 65vh;
+      background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("img/pageBcg/productsBcg.jpeg") center/cover fixed no-repeat;
   }
 
 
