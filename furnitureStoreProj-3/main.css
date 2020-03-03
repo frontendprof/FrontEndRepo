@@ -157,3 +157,15 @@ body {
     color:var(--mainYellow);
     transform: translateX(200%);
 }
+
+/* newsletter */
+
+.text-news{
+    color:var(--mainPink);
+    background: var(--mainCyan);
+}
+
+.form-icon{
+    color:var(--mainPink);
+    background: var(--mainCyan);
+}
