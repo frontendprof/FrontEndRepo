@@ -13,6 +13,7 @@
   --mainPink: #d30c7b;
   --mainCyan:#2de1c2;
   --mainLight:#92828d;
+  --darkGreen:#00272b;
 }
 body {
     color: var(--mainBlack);
@@ -168,4 +169,17 @@ body {
 .form-icon{
     color:var(--mainPink);
     background: var(--mainCyan);
+}
+
+
+
+/* services */
+
+.services{
+    background: var(--darkGreen);
+}
+
+.serv-icon{
+    color:var(--mainYellow);
+    font-size: 2rem;
 }
