@@ -12,7 +12,7 @@
   --TransGrey: rgba(0, 0, 0, 0.1);
   --mainPink: #d30c7b;
   --mainCyan:#2de1c2;
-  --mainLight:#92828d;
+  --mainLight:#c5e6a6;
   --darkGreen:#00272b;
 }
 body {
@@ -182,4 +182,22 @@ body {
 .serv-icon{
     color:var(--mainYellow);
     font-size: 2rem;
+}
+
+/* footer */
+
+.footer{
+    background: var(--mainLight);
+}
+
+.footer-title{
+    border:0.3rem solid var(--mainYellow);
+    border-radius: 30%;
+    color:var(--mainPink);
+    padding: 0.6rem;
+}
+
+.footer-icon{
+    color:var(--mainPink);
+    font-size:1.6rem;
 }
