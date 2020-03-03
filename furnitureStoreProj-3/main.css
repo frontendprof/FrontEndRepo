@@ -12,6 +12,7 @@
   --TransGrey: rgba(0, 0, 0, 0.1);
   --mainPink: #d30c7b;
   --mainCyan:#2de1c2;
+  --mainLight:#92828d;
 }
 body {
     color: var(--mainBlack);
@@ -136,4 +137,23 @@ body {
 
 .old-price{
     text-decoration: line-through;
+}
+
+
+/* partners */
+
+.partners{
+    background:var(--mainGrey);
+}
+
+.carousel-control-prev{
+    font-size: 2.5rem;
+    color:var(--mainYellow);
+    transform: translateX(-200%);
+}
+
+.carousel-control-next{
+    font-size: 2.5rem;
+    color:var(--mainYellow);
+    transform: translateX(200%);
 }
