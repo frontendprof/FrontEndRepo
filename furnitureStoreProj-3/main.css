@@ -178,6 +178,30 @@ body {
 
 
 
+/* home filler */
+.home-filler{
+    min-height: 65vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/home-filler.jpeg") center/cover fixed no-repeat;
+}
+
+.collection-link{
+    color:var(--mainPink);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.collection-link:hover{
+    color:var(--mainCyan);
+    text-decoration: none;
+}
+
+.collection-underline{
+    height: 0.2rem;
+    width: 4rem;
+    background:var(--mainYellow);
+    margin:0 auto;
+}
+
 
 /* featured */
 
