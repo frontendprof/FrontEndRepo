@@ -109,6 +109,19 @@ body {
 }
 
 
+
+/* service2 */
+
+.service2-icon{
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:var(--mainPink);
+    background: var(--mainCyan);
+    padding:0.5rem 1rem;
+    border-radius: 50%;
+}
+
 /* featured */
 
 
