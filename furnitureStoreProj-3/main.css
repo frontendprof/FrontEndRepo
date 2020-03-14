@@ -315,3 +315,50 @@ body {
     color:var(--mainPink);
     font-size:1.6rem;
 }
+
+
+/* ######################### Products ################## */
+
+.products-categories-underline{
+    height: 0.2rem;
+    width:5rem;
+    background: var(--mainYellow);
+}
+
+
+.products-categories-link{
+    color:var(--mainPink);
+    text-decoration: none !important;
+}
+
+.products-categories-link:hover{
+    color:var(--mainCyan);
+    font-size: 1.2rem;
+}
+
+.products-color{
+    width: 1rem;
+    height: 1rem;
+    text-decoration: none !important;
+}
+
+.products-color-black{
+    background: var(--mainBlack);
+    
+}
+
+.products-color-red{
+    background: red;
+}
+
+.products-color-blue{
+    background: blue;
+}
+
+.products-color-yellow{
+    background: var(--mainYellow);
+}
+
+.products-color-green{
+    background: green;
+}
