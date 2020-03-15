@@ -400,4 +400,13 @@ body {
     color:var(--mainYellow);
 }
 
+.product-info-link{
+    color:var(--mainPink);
+    text-decoration: none !important;
+}
+
+.product-info-link:hover{
+    color:var(--mainCyan);
+}
+
 /* ###################### end of single product ############### */
