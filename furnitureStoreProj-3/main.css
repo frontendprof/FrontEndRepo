@@ -376,3 +376,28 @@ body {
 .products-color-green{
     background: green;
 }
+
+/* ####################### end of Products #################### */
+
+
+/* ####################### Single product #################### */
+
+.single-product-photo{
+    background: var(--mainGrey);
+    opacity: 0.6;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border:0.1rem solid transparent;
+    box-sizing: border-box !important;
+}
+
+.single-product-photo:hover{
+    border-color: var(--mainYellow);
+    opacity:1;
+}
+
+.rating-icon{
+    color:var(--mainYellow);
+}
+
+/* ###################### end of single product ############### */
