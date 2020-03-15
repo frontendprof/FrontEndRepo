@@ -42,6 +42,20 @@ body {
       color:var(--mainPink);
   }
 
+  .btn-black{
+      background:var(--mainCyan);
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      color:var(--mainPink);
+      border-radius: 0 !important;
+      border: 0.1rem solid var(--mainBlack);
+  }
+
+  .btn-black:hover{
+      background: var(--mainYellow);
+      color:var(--mainWhite)
+  }
+
 
   .banner-products{
       min-height: 65vh;
