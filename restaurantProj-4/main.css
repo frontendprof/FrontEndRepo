@@ -20,9 +20,54 @@
 }
 
 body{
+    color:#c9c1ac;
     font-family: 'Mr Dafoe', cursive;
 }
 
 .primary-color{
     color:#d3325f;
+}
+
+/* ########################### header ##################### */
+
+#header{
+    min-height: calc(100vh - 94px);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(15,0,0,0.5)),url(img/banner-bcg.jpeg) center/cover fixed no-repeat;
+    position: relative;
+}
+
+.height-90{
+    min-height: (100vh - 94px);
+}
+
+.banner h1{
+    border-top: 6px dotted #c9c1ac;
+    border-bottom: 6px dotted #c9c1ac;
+}
+
+.main-btn{
+    color:#d3325f;
+    font-size: 2rem;
+    border:2px solid #d3325f;
+    transition: all 1s ease-in-out;
+}
+
+.main-btn:hover{
+    color:#242424;
+    border: 2px solid #c9c1ac;
+    background-color: #c9c1ac;
+}
+
+.header-link{
+    display: inline-block;
+    position: absolute;
+    bottom:3%;
+    left:50%;
+    background-color: #c9c1ac;
+    border-radius: 10%;
+    transition: all 2s ease;
+}
+
+.header-link:hover{
+    color:#242424;
 }
