@@ -1,0 +1,16 @@
+
+
+PizzBurg things to do:
+
+
+* While defining min-height for header with calc(100vh - 94px), need to apply for different size of screens with media query
+
+
+* show linear-gradient element with different rgba and and different direction:
+(linear-gradient(to right,rgba(0,0,0,0.5),rgba(15,150,35,0.5)),url(img/banner-bcg.jpeg) center/cover fixed no-repeat;)
+
+
+* adding animation to header buttons and links
+* adding ripple effect
+
+
