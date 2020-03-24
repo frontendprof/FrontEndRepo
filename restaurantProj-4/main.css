@@ -22,7 +22,7 @@
 body{
     color:#c9c1ac;
     font-family: 'Mr Dafoe', cursive;
-    background: url(img/body-bcg.jpeg) center/cover fixed no-repeat;
+    /* background: url(img/body-bcg.jpeg) center/cover fixed no-repeat; */
 }
 
 .primary-color{
