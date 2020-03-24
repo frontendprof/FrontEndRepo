@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //ripples
-  $("#header,.info").ripples({
+  $("#header,.info,#special-items").ripples({
     dropRadius: 15,
     perturbance: 0.001
 

@@ -133,3 +133,52 @@ body{
         transform: translateY(-10px);
     }
 }
+
+
+/* ################################ menu items ##################### */
+
+.item-container{
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(rgb(236, 233, 233),rgb(0,0,0));
+    transition: all 2s ease;
+}
+
+.item-img{
+    transition: all 2s ease;
+
+}
+
+.item-container:hover .item-img{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.item-link{
+    position: absolute;
+    top:10%;
+    left:20%;
+    transform: translate(-10%,-20%);
+    color:#d3325f;
+    font-size: 1.5rem;
+    border-top:3px solid #d3325f ;
+    border-bottom:3px solid #d3325f ;
+    transition: all 2s ease;
+    opacity: 0;
+}
+
+.item-container:hover .item-link{
+    opacity: 1;
+}
+
+.item-link:hover{
+    color:#d3325f;
+    border:3px solid #d3325f;
+    background-color: aqua;
+
+}
+
+.item-container:hover{
+    outline:10px dotted #d3325f;
+    outline-offset: 0.7rem;
+}
