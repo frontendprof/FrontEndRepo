@@ -274,6 +274,18 @@ body{
 
 
 
+/* ############################################ team section ########################## */
+
+.team-icons a{
+    color:#3b5998;
+    transition: all 1s ease-in-out;
+}
+
+.team-icons a:hover{
+    color:#d3325f;
+    transform: translateY(-8px);
+}
+
 
 
 
