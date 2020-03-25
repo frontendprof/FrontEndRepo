@@ -21,7 +21,7 @@
 
 body{
     font-family: 'Mr Dafoe', cursive;
-    background: url(img/index6.jpg) center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(img/index6.jpg) center/cover fixed no-repeat;
 }
 
 #cala{
@@ -259,4 +259,19 @@ body{
 .about-pictures:hover .about-image:not(:hover){
     opacity:0.5;
 
+}
+
+
+
+
+/* ################################## review section ############################## */
+
+
+
+.review-item{
+    background:rgba(255,255,255,0.7);
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+}
+.review-img{
+    width: 200px;
 }
