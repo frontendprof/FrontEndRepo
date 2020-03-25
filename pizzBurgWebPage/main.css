@@ -21,6 +21,7 @@
 
 body{
     font-family: 'Mr Dafoe', cursive;
+    background: url(img/index6.jpg) center/cover fixed no-repeat;
 }
 
 #cala{
@@ -202,4 +203,60 @@ body{
     right: 10%;
     background: #d3325f;
     padding: 0 0.4rem;
+}
+
+
+
+
+/* ########################### about section ######################### */
+
+.about-pictures{
+    position: relative;
+}
+
+.about-image{
+    position: absolute;
+    width: 200px;
+    transition: all 2s ease;
+}
+
+.img-1{
+    left:0%;
+    top:0%;
+}
+
+.img-2{
+    left:40%;       
+    top:45%;
+    z-index: 10;
+}
+
+.img-3{
+    left:20%;
+    top:20%;
+    z-index: 20;
+}
+
+.img-4{
+    left:40%;
+    top:0%;
+}
+
+.img-5{
+    left:0%;
+    top:45%;
+}
+
+
+.about-image:hover{
+    outline: 5px solid #079db1;
+    outline-offset: 0.8rem;
+    transform: scale(1.3) rotate(20deg);
+    z-index: 30;
+    opacity: 1;
+}
+
+.about-pictures:hover .about-image:not(:hover){
+    opacity:0.5;
+
 }

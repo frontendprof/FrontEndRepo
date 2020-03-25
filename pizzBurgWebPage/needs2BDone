@@ -18,5 +18,11 @@ PizzBurg things to do:
 
 * On styling menu item:
     - No need hover effects and its aftermath, since most customers may order online via a smart phone.
+    - Or you can use media query on small devices without effects
 
+
+
+* On biz haqimizda section:
+    - on hover learn more, more info about our product could be
+    larged several times on ads.
 
