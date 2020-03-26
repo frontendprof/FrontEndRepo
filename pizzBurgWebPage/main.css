@@ -338,3 +338,22 @@ body{
     color:#d3325f;
     border-color: white;
 }
+
+
+
+
+
+/* ##################################### footer section ######################### */
+
+#back-to-top{
+    background: cyan;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.scrollTop{
+    position: fixed;
+    bottom:70px;
+    right:10px;
+}
