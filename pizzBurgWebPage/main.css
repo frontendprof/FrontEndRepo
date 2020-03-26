@@ -21,7 +21,7 @@
 
 body{
     font-family: 'Mr Dafoe', cursive;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(img/index6.jpg) center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(img/index6.jpg) center/cover fixed no-repeat;
 }
 
 #cala{
@@ -290,4 +290,51 @@ body{
 .team-icons a:hover{
     color:#d3325f;
     transform: translateY(-8px);
+}
+
+
+
+
+/* ##################################### contact section ############################# */
+.height-60{
+    min-height: 60vh;
+}
+
+
+
+
+#contact .card{
+    background: #fcf7bb;
+    transition: all 2s ease;
+}
+
+#contact .card:hover{
+    background: #ccf0e1;
+}
+
+#contact .card-header{
+    color:yellowgreen;
+}
+
+#contact .input-group-text{
+    background:yellowgreen;
+    border-color: cyan;
+    color:#d3325f;
+}
+
+#contact .card input{
+    color:#606060;
+}
+
+.contact-btn{
+    color:#d3325f;
+    border-color: #d3325f;
+    background: transparent;
+    transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover{
+    background: yellowgreen;
+    color:#d3325f;
+    border-color: white;
 }
