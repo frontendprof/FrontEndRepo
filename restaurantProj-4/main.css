@@ -297,12 +297,12 @@ body{
 
 
 #contact .card{
-    background: rgba(0,0,0,0.1);
+    background: #fcf7bb;
     transition: all 2s ease;
 }
 
 #contact .card:hover{
-    background: rgba(0,0,0,0.8);
+    background: #ccf0e1;
 }
 
 #contact .card-header{
@@ -333,3 +333,19 @@ body{
 }
 
 
+
+
+/* ##################################### footer section ######################### */
+
+#back-to-top{
+    background: cyan;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.scrollTop{
+    position: fixed;
+    bottom:70px;
+    right:10px;
+}
