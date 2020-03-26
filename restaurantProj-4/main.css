@@ -22,7 +22,7 @@
 body{
     color:#c9c1ac;
     font-family: 'Mr Dafoe', cursive;
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)),url(img/index5.jpg) center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url(img/index5.jpg) center/cover fixed no-repeat;
 }
 
 .primary-color{
@@ -287,5 +287,49 @@ body{
 }
 
 
+
+/* ##################################### contact section ############################# */
+.height-60{
+    min-height: 60vh;
+}
+
+
+
+
+#contact .card{
+    background: rgba(0,0,0,0.1);
+    transition: all 2s ease;
+}
+
+#contact .card:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+#contact .card-header{
+    color:yellowgreen;
+}
+
+#contact .input-group-text{
+    background:yellowgreen;
+    border-color: cyan;
+    color:#d3325f;
+}
+
+#contact .card input{
+    color:#606060;
+}
+
+.contact-btn{
+    color:#d3325f;
+    border-color: #d3325f;
+    background: transparent;
+    transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover{
+    background: yellowgreen;
+    color:#d3325f;
+    border-color: white;
+}
 
 
