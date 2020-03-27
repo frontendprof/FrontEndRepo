@@ -132,6 +132,82 @@ body{
 }
 
 
+/* ########################################## navbar section ###################3 */
+
+.navbar{
+    background: #9be3de;
+    padding:20px 20px;
+    transition: all 1s ease;
+}
+
+.navbar-background{
+    padding:5px 20px;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    transition: all 1s ease;
+}
+
+.navbar-brand:hover{
+    color:#1eb2a6;
+}
+
+.nav-link{
+    color:#527318;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover{
+    color:#fd2eb3;
+}
+
+.nav-btn{
+    background: #465881;
+    color:#d3325f;
+    border:solid 2px #d3325f;
+    transition: all 2s ease;
+    font-size: 1.3rem;
+}
+
+.nav-btn:hover{
+    color:#8b2f97;
+    border:2px solid #21bf73;
+    transform: rotate(10deg);
+    background: #fab696;
+}
+
+.toggler-btn{
+    border:2px solid #d3325f;
+    padding:5px;
+    transition: all 2s ease;
+}
+
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background-color: #f88020;
+    transition: all 1s ease;
+}
+
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px 6px);
+
+}
+
+.change .bar{
+    opacity:0;
+    
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(-5px -8px);
+    
+}
 
 /* ################################ menu items ##################### */
 
