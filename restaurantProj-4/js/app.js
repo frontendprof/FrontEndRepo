@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
 
-
+  // toggler btn
   $('.navbar-toggler').click(function () {
     $('.navbar-toggler').toggleClass('change');
 
@@ -25,6 +25,11 @@ $(document).ready(function () {
       $('.navbar').removeClass('fixed-top');
     }
   })
+
+
+
+
+
   //smooth scroll
   $('.nav-item a, .header-link, #back-to-top').click(function (link) {
     link.preventDefault();
@@ -40,19 +45,6 @@ $(document).ready(function () {
 
 
 
-  //window scroll
-
-  $(window).scroll(function () {
-    let position = $(this).scrollTop();
-    console.log(position);
-    if (position >= 718) {
-      $('#back-to-top').addClass('scrollTop')
-
-    } else {
-      $('#back-to-top').removeClass('scrollTop');
-
-    }
-  })
 
 
   $('.parent-container').magnificPopup({
