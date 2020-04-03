@@ -159,7 +159,52 @@ body{
 
 
 
+/* ############################ skills ############################ */
 
+.title h1{
+    color:#242424;
+}
+
+.title h3{
+    color:#5a5a5a;
+}
+
+.title-underline{
+    height: 5px;
+    width:250px;
+    background: #2a9134;
+    margin:-28px auto 0 auto;
+}
+
+.title a{
+    color:#2a9134;
+    font-size: 30px;
+    padding:0 10px;
+    display:inline-block;
+    background: #f1fffa;
+}
+
+.skills-icon{
+    background: #242424;
+    transition: all 1s ease;
+    clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+
+}
+
+.skills-icon:hover{
+    background: #2a9134;
+
+}
+
+.skills-icon span{
+    color:#909090;
+    font-size: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.skills-icon:hover span{
+    color:#f1fffa;
+}
 
 
 
