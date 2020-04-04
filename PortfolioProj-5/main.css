@@ -208,6 +208,34 @@ body{
 
 
 
+/* ############################ about me ########################### */
+
+#about{
+    min-height: 40vh;
+    background: #909090;
+    clip-path:polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+#modal-filler{
+    min-height: 50vh;
+    background: linear-gradient(rgba(42,145,52,0.1),rgba(42,145,52,0.5)),url(img/video-filler.jpeg) center/cover fixed no-repeat;
+}
+
+#modal-filler a{
+    color:#242424;
+    font-size:80px;
+    animation:myAnimation 5s ease infinite;
+}
+
+@keyframes myAnimation{
+
+    50%{
+        transform: scale(1.5);
+        color:#f1fffa;
+    }
+
+}
+
 
 
 
