@@ -319,3 +319,56 @@ body{
     margin-top: 0;
     opacity:1;
 }
+
+
+
+/* ############################### current-project ############################ */
+
+#current-project{
+    background: #909090;
+    clip-path: polygon(0 0, 100% 10%,100% 100%,0 90%);
+}
+
+.current-project-photo{
+    position: relative;
+    min-height: 50vh;
+}
+
+.current-project{
+    width:50%;
+    height: 60%;
+    position: absolute;
+    transition: all 2s ease-in-out;
+}
+
+
+.current-project-1{
+    top:0;
+    left:10%;
+    transform: rotate(-15deg);
+    z-index: 20;
+}
+
+.current-project-2{
+    top:0;
+    left:46%;
+    transform: rotate(8deg);
+    z-index: 30;
+}
+
+.current-project-3{
+    top:40%;
+    left:4%;
+    transform: rotate(-8deg);
+}
+
+.current-project-4{
+    top:41%;
+    left:40%;
+    transform: rotate(38deg);
+}
+
+.current-project:hover{
+    transform: scale(1.1);
+    z-index: 50;
+}
