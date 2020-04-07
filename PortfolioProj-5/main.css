@@ -533,3 +533,55 @@ body{
 .ratings{
     color:#cbcb00;
 }
+
+
+/* ################################## team section ############################ */
+
+.member-container{
+    position: relative;
+    overflow: hidden;
+    background: #2a9134;
+}
+
+.team-image{
+    transition: all 2s ease-in-out;
+
+}
+
+.member-container:hover .team-image{
+    transform: translateY(-72px);
+    opacity: 0.5;
+}
+
+.team-icons a{
+    color:#f1fffa;
+    font-size: 25px;
+    transition: color 2s ease;
+}
+
+.team-icons a:hover{
+    color:#242424;
+}
+
+.member-info{
+    transition: all 2s ease-in-out;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    background: #2a9134;
+    padding: 10px;
+    color:#242424;
+    margin-bottom: -130px;
+}
+
+.member-container:hover .member-info{
+    margin-bottom: 0;
+}
+
+.member-icon a{
+    font-size: 4rem;
+    color:#f1fffa;
+    transition: all 2s ease;
+}
+
