@@ -585,3 +585,21 @@ body{
     transition: all 2s ease;
 }
 
+.member-icon a:hover{
+    text-decoration: none;
+    color:#242424;
+}
+
+
+/* ################################## numbers section ############################ */
+
+.number{
+    background: #2a9134;
+    color:#242424;
+    transition: all 2s ease;
+}
+
+.number:hover{
+    background: #14488b;
+    color:#f1fffa;
+}
