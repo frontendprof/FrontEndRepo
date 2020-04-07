@@ -372,3 +372,44 @@ body{
     transform: scale(1.1);
     z-index: 50;
 }
+
+
+
+/* ####################################### posts ########################### */
+
+#posts .card{
+    background: transparent;
+    border:none;
+    position: relative;
+}
+
+#posts .card-image-top{
+    border-radius: 0;
+}
+
+#posts .card-footer{
+    background: transparent;
+}
+
+.post-link{
+    color:#2a9134;
+    transition: all 1s ease-in-out;
+}
+
+.post-link:hover{
+    color:#dd0000;
+    text-decoration: none;
+}
+
+.corner-text{
+    position: absolute;
+    top:0;
+    right:0;
+    background: #dd0000;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+#posts .card:hover .corner-text{
+    opacity: 1;
+}
