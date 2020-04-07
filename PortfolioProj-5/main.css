@@ -473,4 +473,63 @@ body{
     font-size: 60px;
     color:#f1fffa;
     background: #242424;
+    padding: 25px 35px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    transition: all 2s ease;
+}
+
+.value-number{
+    padding: 15px;
+    background: #2a9134;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 20px;
+    top:-12%;
+    left: 57%;
+    color: #242424;
+    transition: all 2s ease;
+
+}
+
+.value:hover .value-icon{
+    background: #2a9134;
+    transform: scale(1.2);
+}
+
+.value:hover .value-number{
+    background: #f1fffa;
+    transform: scale(0.9);
+}
+
+
+
+/* ####################################### reviews section ###############################*/
+
+#reviews{
+    background: linear-gradient(rgba(42,145,52,0.7),rgba(42,145,52,0.7)),url(img/banner-1.jpeg) fixed no-repeat;
+    color:#f1fffa;
+}
+
+.customer-text h3{
+    color:#242424;
+}
+
+.customer-text h4{
+    color:#5a5a5a;
+}
+
+.customer-text p{
+    line-height: 1.5;
+}
+
+.customer-text span{
+    font-size:40px;
+    color:#cbcb00;
+}
+
+.ratings{
+    color:#cbcb00;
 }
