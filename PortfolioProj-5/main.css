@@ -460,3 +460,17 @@ body{
     border-color: #2a9134;
     color:#2a9134;
 }
+
+
+
+/* ###################################### values ########################## */
+
+.value{
+    position: relative;
+}
+
+.value-icon{
+    font-size: 60px;
+    color:#f1fffa;
+    background: #242424;
+}
