@@ -603,3 +603,11 @@ body{
     background: #14488b;
     color:#f1fffa;
 }
+
+
+
+/* ####################################### contact section ############################ */
+
+.height-80{
+    min-height: 80vh;
+}
