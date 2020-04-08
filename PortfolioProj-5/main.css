@@ -611,3 +611,59 @@ body{
 .height-80{
     min-height: 80vh;
 }
+
+#contact{
+    background: linear-gradient(to right,rgba(42,145,52,0.3),rgba(42,145,52,0.4)),url(img/banner-1.jpeg) center/cover fixed no-repeat;
+
+}
+
+#contact .card{
+    background: rgba(91, 118, 160, 0.3);
+    transition: all 2s ease;
+}
+
+#contact .card:hover{
+    background: rgba(91, 118, 158, 0.6);;
+}
+
+#contact .card-header{
+    color:#2a9134;
+}
+
+#contact .input-group-text{
+    background:#2a9134;
+    border-color: #14488b;
+    color:rgba(173, 76, 230, 0.6);
+}
+
+#contact .card input::placeholder{
+    color:rgba(173, 76, 230, 0.6);
+}
+
+.contact-btn{
+    color:#f1fffa;
+    background: #74e67f;
+    transition: all 2s ease-in-out;
+}
+
+.contact-btn:hover{
+    color:rgba(173, 76, 230, 0.6);
+    background: #2a9134;
+}
+
+
+/* ##################### footer ###################### */
+
+footer{
+    background:rgba(115, 8, 177, 0.6);
+}
+
+.footer-icons a{
+    font-size: 25px;
+
+}
+
+footer h5{
+    color:#f1fffa;
+    font-size: 1.4rem;
+}
