@@ -425,10 +425,30 @@ body{
 }
 
 
+/* customer */
 
 
+.customer-card-body{
+  margin-top: -4rem !important;
+}
 
+.customer-img{
+  border:.4rem solid var(--mainBlue);
+}
 
+.customer-name{
+  color:var(--mainYellow);
+  margin:.5rem;
+}
+
+.customer-icon{
+  font-size:2rem;
+  color:var(--mainGrey);
+}
+
+.customer-quote{
+  max-width: 90%;
+}
 
 
 
