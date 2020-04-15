@@ -41,26 +41,63 @@
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fa fa-home text-muted mr-3">Dashboard</i>
+                    <i class="fa fa-home text-muted mr-3"></i>Dashboard
                 </a>
             </li>
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fa fa-home text-muted mr-3">Dashboard</i>
+                    <i class="fa fa-list text-muted mr-3"></i>App
                 </a>
             </li>
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fa fa-home text-muted mr-3">Dashboard</i>
+                    <i class="fa fa-envelope text-muted mr-3"></i>Mailbox
                 </a>
             </li>
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="fa fa-home text-muted mr-3">Dashboard</i>
+                    <i class="fa fa-desktop text-muted mr-3"></i>UI Elements
                 </a>
+            </li>
+        </ul>
+
+
+        <!-- nav icons -->
+
+        <ul class="navbar-nav icons">
+
+            <li class="nav-item mr-4">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-search"></i>
+                </a>
+            </li>
+
+            <li class="nav-item mr-4">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-bell-icon"></i>
+                </a>
+            </li>
+
+            <li class="nav-item mr-4">
+                <a href="#" class="nav-link">
+                    <i class="fa fa-comment-icon"></i>
+                </a>
+            </li>
+
+
+            <li class="nav-item mr-5">
+                <a href="#" class="nav-link">
+                    <img src="images/team-1.jpg" alt="image" width="50px" class="img-fluid rounded-circle img-thumbnail">
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link" data-toggle="modal"
+                data-target="#sign-out">
+            <i class="fa fa-sign-out"></i>Sign out</a>
             </li>
         </ul>
     </div>
@@ -71,7 +108,36 @@
 
 
 
+<!-- The Modal -->
 
+<div class="modal fade" id="sign-out">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- modal header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Already want to leave?</h4>
+                <button class="close" type="button" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- modal body -->
+            <div class="modal-body">
+                It is sad to see you go. Please log out to leave.
+            </div>
+
+            <!-- modal footer -->
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="button" data-dismiss="modal">
+                    Stay here
+                </button>
+
+                <button class="btn btn-danger" type="button" data-dismiss="modal">
+                    Sign out
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
@@ -79,6 +145,12 @@
 
     <script src='js/jquery-3.3.1.min.js'></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- toggler button -->
+
+    <script>
+        $(".navbar-toggler").html('<i class="fa fa-arrow-down fa-3x text-white"></i>');
+    </script>
     
 </body>
 </html>
