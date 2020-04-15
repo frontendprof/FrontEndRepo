@@ -303,6 +303,45 @@
                 <!-- end of card col 1 -->
 
             </div>
+
+            <!-- charts -->
+            <div class="row">
+
+                <div class="col-md-6 col-lg-4 my-5">
+                    <div class="card">
+                        <div class="card-title text-center">
+                            
+                            <h1>Line Chart</h1>
+                        </div>
+
+                        <canvas id="line-chart"></canvas>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4 my-5 mx-auto order-3 order-lg-2">
+                    <div class="card">
+                        <div class="card-title text-center">
+                            
+                            <h1>Doughnut Chart</h1>
+                        </div>
+
+                        <canvas id="doughnut-chart"></canvas>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4 my-5 order-2 order-lg-3">
+                    <div class="card">
+                        <div class="card-title text-center">
+                            
+                            <h1>Bar Chart</h1>
+                        </div>
+
+                        <canvas id="bar-chart"></canvas>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -362,6 +401,19 @@
 
     <script src='js/jquery-3.3.1.min.js'></script>
     <script src="js/bootstrap.min.js"></script>
+
+
+
+    <!-- chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <!-- line chart -->
+    <script src="line.js"></script>
+
+    <!-- bar chart -->
+    <script src="bar.js"></script>
+
+    <!-- doughnut chart -->
+    <script src="doughnut.js"></script>
 
     <!-- toggler button -->
 
