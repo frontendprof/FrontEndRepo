@@ -4,3 +4,76 @@ body{
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+
+
+/* main styles */
+
+.right-padding{
+    padding-right: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.max-viewport{
+    min-height: 100vh;
+}
+
+
+/* navbar */
+
+.navbar{
+    border-top: 3px solid #f15025;
+    border-bottom: 3px solid #f15025;
+    background: #242a33;
+}
+
+.navbar .navbar-brand{
+    color:#f15025;
+}
+
+.navbar .nav-link,
+.navbar .icons{
+    color:#687384;
+}
+
+
+.navbar .nav-link:hover,
+.navbar .icons:hover{
+    color:#fff;
+}
+
+
+.navbar .icon{
+    position: relative;
+}
+
+.navbar .icon::after{
+    content:"";
+    position: absolute;
+    top:-5px;
+    left:25px;
+    height: 20px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ef5350;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
