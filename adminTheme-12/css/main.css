@@ -82,6 +82,50 @@ body{
 
 
 
+/* card section */
+
+.inform-card .card{
+    color:#fff;
+}
+
+.inform-card .card1{
+    background-color: #403f4c;
+}
+
+.inform-card .card2{
+    background-color: #efbcd5;
+}
+
+.inform-card .card3{
+    background-color: #f9dc5c;
+}
+
+.inform-card .card4{
+    background-color: #3185fc;
+}
+
+
+.inform-card .card .body-icon{
+    font-size: 60px;
+    transform: rotate(315deg);
+    color:#f15025;
+}
+
+
+.inform-card .card .fa,
+.inform-card .card a{
+    color: #f15025;
+}
+
+.inform-card .card a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+.inform-card .card-footer{
+    background: rgba(0,0,0,0.5);
+}
+
 
 
 
