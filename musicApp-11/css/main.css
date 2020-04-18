@@ -2,4 +2,44 @@
 
 body{
     font-family: "Roboto",sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    background-color: #F15025;
+}
+
+
+.nav-logo{
+    background-color: #F15025;
+}
+
+.no-padding{
+    padding:0;
+}
+
+.sidebar{
+    border-right: 2px solid #CED0CE;
+    background-color: #fff;
+}
+
+.sidebar .list-group-item{
+    border:none;
+}
+
+.nav-color{
+    color:#CED0CE;
+}
+
+.sidebar .nav-btn{
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #F15025;
+    color:#353531;
+}
+
+
+.sidebar .nav-btn:hover{
+    background-color: #353531;
+    color:#F15025!important;
 }
