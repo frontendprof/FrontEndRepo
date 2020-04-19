@@ -19,8 +19,8 @@ hr{
 }
 
 .sidebar{
-    border-right: 2px solid #CED0CE;
-    background-color: #fff;
+    border-right: 2px solid darkkhaki;
+    background-color: grey;
 }
 
 .sidebar .list-group-item{
