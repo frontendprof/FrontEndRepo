@@ -17,6 +17,8 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+
 	//second owl
 	$('#top-albums').owlCarousel({
 		loop: true,
