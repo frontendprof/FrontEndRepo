@@ -43,3 +43,12 @@ hr{
     background-color: #353531;
     color:#F15025!important;
 }
+
+
+
+/* main content */
+
+.owl-item  .img-container{
+    position: relative;
+
+}
