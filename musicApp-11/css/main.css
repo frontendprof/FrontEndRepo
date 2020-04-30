@@ -1,3 +1,23 @@
 body{
     font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}
+
+/* 
+hr{
+    background-color: #F15025;
+} */
+
+
+.nav-logo{
+    background-color: #F15025;
+}
+
+.no-padding{
+    padding:0;
+}
+
+.sidebar{
+    border-right: 2px solid blue;
+    background-color: lightgray;
 }
