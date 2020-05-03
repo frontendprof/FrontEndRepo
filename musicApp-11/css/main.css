@@ -3,10 +3,10 @@ body{
     font-weight: bolder;
 }
 
-/* 
+
 hr{
-    background-color: #F15025;
-} */
+    background-color:indigo;
+}
 
 
 .nav-logo{
@@ -19,5 +19,25 @@ hr{
 
 .sidebar{
     border-right: 2px solid blue;
-    background-color: lightgray;
+    background-color: lightblue
+}
+
+.sidebar .list-group-item{
+    border: none;
+}
+
+.nav-color{
+    color:magenta;
+}
+
+.sidebar .nav-btn{
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: orchid;
+    color:cyan;
+}
+
+.sidebar .nav-btn:hover{
+    background-color:pink;
+    color:teal !important;
 }
