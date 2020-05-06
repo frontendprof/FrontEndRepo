@@ -39,7 +39,7 @@ $(document).ready(function () {
 
 
 
-	// //change color of nav
-	// $('.owl-prev').html('<i class="fa fa-chevron-left"></i>');
-	// $('.owl-next').html('<i class="fa fa-chevron-right"></i>');
+	//change color of nav
+	$('.owl-prev').text('Prev');
+	$('.owl-next').text('Next');
 });
