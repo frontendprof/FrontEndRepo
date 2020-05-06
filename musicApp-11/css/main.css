@@ -41,3 +41,25 @@ hr{
     background-color:pink;
     color:teal !important;
 }
+
+
+/* main content */
+
+.owl-item .img-container{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+    overflow: hidden;
+}
+
+.owl-item .fa{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+    color:rgb(247, 139, 229);
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    visibility: hidden;
+}

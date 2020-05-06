@@ -14,9 +14,9 @@
     position:absolute;
     top:0;
     left:50%;
-    color: blue;
+    color: rgb(236, 96, 236);
     font-size: 1.3rem;
-    background: rgb(235, 213, 235);
+    background: rgb(202, 196, 202);
     display: inline-block;
     cursor: pointer;
     border-radius: 3px;
@@ -75,5 +75,5 @@
 .owl-prev
 .owl-next{
     font-size: 2rem;
-    width: max-content;
+    width: max-content; 
 }
