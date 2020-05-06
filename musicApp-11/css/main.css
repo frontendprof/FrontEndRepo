@@ -63,3 +63,14 @@ hr{
     border-radius: 50%;
     visibility: hidden;
 }
+
+.owl-item img{
+    transition: transform 4s ease-in-out;
+
+}
+
+.owl-item:hover img{
+    opacity: .5;
+    transform: scale(1.3);
+    
+}
