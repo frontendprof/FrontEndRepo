@@ -11,17 +11,19 @@ circle.setAttribute("stroke-dasharray",perimeter);
 
 
 
-let currentOffset=0;
+let duration=0;
 const timer=new Timer(durationInput,startBtn,pauseBtn,{
-    onStart(){
-        console.log("Timer started")
+    onStart(totalDuration){
+        duration=totalDuration;
         
     },
 
-    onTick(){
+    onTick(timeRemaining){
         console.log("Timer just ticked down");
-        circle.setAttribute("stroke-dashoffset",currentOffset);
-        currentOffset=currentOffset-2;
+        circle.setAttribute("stroke-dashoffset",
+        perimeter*timeRemaining/duration-perimeter
+        );
+        
         
     },
 
