@@ -1,11 +1,14 @@
 
+body{
+    background-color:rgb(229, 190, 196);
+}
 
 
 .main{
     display: flex;  
     flex-direction: column;
-    justify-self: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
     min-height: 100vh;
     margin-top: 5rem;
 }
