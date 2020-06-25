@@ -9,6 +9,100 @@
 </head>
 <body>
 
+    <div class="container text-center">
+        <div class="calc-container">
+            <div class="row">
+                <form name="calc">
+                    <input type="text" id="entry" class="entry text-right" value="0" readonly>
+                </form>
+            </div>
+
+            <!-- First Row -->
+            <div class="row">
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(7)">7</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(8)">8</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(9)">9</button>
+
+                <button type="button" id="mathBut" class="btn btn-success mathBut"
+                onClick="mathButPress('+')">+ </button>
+
+                
+            </div>
+
+            <!-- Second Row -->
+            <div class="row">
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(4)">4</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(5)">5</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(6)">6</button>
+
+                <button type="button" id="mathBut" class="btn btn-success mathBut"
+                onClick="mathButPress('-')">- </button>
+
+                
+            </div>
+
+            <!-- Third Row -->
+            <div class="row">
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(1)">1</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(2)">2</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(3)">3</button>
+
+                <button type="button" id="mathBut" class="btn btn-success mathBut"
+                onClick="mathButPress('*')">* </button>
+
+                
+            </div>
+
+            <!-- Fourth Row -->
+            <div class="row">
+                <button type="button" id="clearBut" class="btn btn-danger numBut"
+                onClick="numButPress()">AC</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress(0)">0</button>
+
+                <button type="button" id="numBut" class="btn btn-primary numBut"
+                onClick="numButPress('.')">.</button>
+
+                <button type="button" id="mathBut" class="btn btn-success mathBut"
+                onClick="mathButPress('/')">/</button>
+
+                
+            </div>
+
+            <!-- Final Row -->
+            <div class="row">
+                <button type="button" id="addMemBut" class="btn btn-warning numBut"
+                onClick="copyButPress()">MC</button>
+
+                <button type="button" id="pasteMemBut" class="btn btn-warning numBut"
+                onClick="pasteButPress()">MP</button>
+
+                <button type="button" id="equalBut" class="btn btn-info equalBut"
+                onClick="equalButPress()">=</button>
+
+                
+            </div>
+
+
+        </div>
+    </div>
+
 
 
 
