@@ -1,15 +1,26 @@
-body{
-    background-color: #000;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
 }
 
 .container{
-    background:#000;
-    margin:0;
+    min-height: 100%;
+    min-width: 95vw;
+    background:rgb(127, 152, 236);
+    margin:0 auto;
+    display:flex;
 }
 
 .entry{
-    width: 265px;
-    height: 50px;
+    width: 473px;
+    height: 80px;
     border-radius: 10px;
     padding: 10px;
     margin: 10px 2px;
@@ -18,15 +29,32 @@ body{
 }
 
 .calc-container{
-    width: 300px;
-    background-color: rgb(194, 240, 110);
+    width: 520px;
+    height: 560px;
+    background-color: rgb(105, 39, 50);
     border-radius: 20px;
     padding: 30px;
-    margin-top: 10px;
+    margin:1rem .5rem;
+    
+    
+}
+
+.info{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+}
+
+.info h3{
+    display: flex;
+    align-self: start;
+    font-family: 'Faster One', cursive;
 }
 
 .numBut{
-    width: 59px;
+    width: 112px;
     height: 59px;
     margin:10px 4px;
     border:none !important;
@@ -34,14 +62,14 @@ body{
 
 
 .mathBut{
-    width: 59px;
+    width: 112px;
     height: 59px;
     margin:10px 4px;
     border:none !important;
 }
 
 .equalBut{
-    width: 126px;
+    width: 232px;
     height: 59px;
     margin:10px 4px;
     border:none !important;
